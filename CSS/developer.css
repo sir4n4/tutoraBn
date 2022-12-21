@@ -1,0 +1,22 @@
+.avatar{
+    justify-content: center;
+        vertical-align: middle;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-footer{
+    color: black;
+}
+
+.designation{
+    color: rgb(82, 82, 82);
+    font-size: large;
+}
