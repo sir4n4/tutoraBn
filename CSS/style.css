@@ -466,6 +466,40 @@ p {
         width: 330px; 
         z-index: -1;
       }
+      .developerBg{
+        background-image: url(''); 
+        background-repeat: no; 
+        sbackground-size:contain;
+
+      }
+      .devTitle h1{
+        color: #000;
+      }
+      .policyBG{
+        background-image: url(''); 
+        background-repeat: no; 
+        background-size:contain;
+      }
+      .policyTitle h1{
+        color: rgba(223, 0, 0, 0.932);
+      }
+      .privacyBG{
+        background-image: url(''); 
+        background-repeat: no; 
+        background-size:contain;
+      }
+      .privacyTitle h1{
+        color: rgba(223, 0, 0, 0.932);
+      }
+      .contactBG{
+        background-image: url(''); 
+        background-repeat: no; 
+        background-size:contain;
+      }
+      .contactTitle h1{
+        color: rgba(223, 0, 0, 0.932);
+      }
+
   }
 
 
@@ -477,4 +511,38 @@ p {
     background-size: 70rem;
     background-repeat: no-repeat;
     }
+    .developerBg{
+      background-image: url('../images/bg/tutoraBG.png'); 
+      background-repeat: no; 
+      sbackground-size:contain;
+    }
+    .devTitle h1{
+      color: rgb(255, 255, 255);
+    }
+    .policyBG{
+      background-image: url('../images/bg/tutoraBG.png'); 
+      background-repeat: no; 
+      background-size:contain;
+    }
+    .policyTitle h1{
+      color: white;
+    }
+    .privacyBG{
+      background-image: url('../images/bg/tutoraBG.png'); 
+      background-repeat: no; 
+      background-size:contain;
+    }
+    .privacyTitle h1{
+      color: white;
+    }
+    .contactBG{
+      background-image: url('../images/bg/tutoraBG.png'); 
+      background-repeat: no; 
+      background-size:contain;
+    }
+    .contactTitle h1{
+      color: white;
+    }
   }
+
+
