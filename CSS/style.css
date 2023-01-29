@@ -241,14 +241,14 @@ p {
 ============================================= */
 
 
-body{
+/* body{
     background-image:url(../images/bg/tutoraBG.png);
     background-color: #ffffff;
     background-position-x: right;
     background-size: 70rem;
     background-repeat: no-repeat;
 }
-
+ */
 
 
 /* =============================================
@@ -453,12 +453,12 @@ body{
 
   /* < ------------ Resoponsive ------------------> */
 
-  @media(max-width: 900px){
+  @media(max-width: 899px){
     body{
-        background-image:url();
+        background-image:url('');
         background-color: #ffffff;
         background-position-x: right;
-        background-size: 70rem;
+        background-size: 0px;
         background-repeat: no-repeat;
     }
 
@@ -466,4 +466,15 @@ body{
         width: 200px; 
         z-index: -1;
       }
+  }
+
+
+  @media (min-width:900px) {
+    body{
+        background-image:url(../images/bg/tutoraBG.png);
+    background-color: #ffffff;
+    background-position-x: right;
+    background-size: 70rem;
+    background-repeat: no-repeat;
+    }
   }
