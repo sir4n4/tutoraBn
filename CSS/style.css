@@ -443,3 +443,27 @@ body{
 .sizebox{
     height: 40px;
 }
+
+
+.illustration img{
+    width: 30rem; 
+    z-index: -1;
+  }
+
+
+  /* < ------------ Resoponsive ------------------> */
+
+  @media(max-width: 900px){
+    body{
+        background-image:url();
+        background-color: #ffffff;
+        background-position-x: right;
+        background-size: 70rem;
+        background-repeat: no-repeat;
+    }
+
+    .illustration img{
+        width: 200px; 
+        z-index: -1;
+      }
+  }
